@@ -10,6 +10,10 @@ def initialize(date, patient, doctor)
 @@all << self
 end
 
+def patient
+  appointments.map(&:doctor)
+end
+
 def self.all
 @@all
 end
