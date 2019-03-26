@@ -18,7 +18,8 @@ Song.new(name, self, genre)
 end
 
 def songs
-  song.all.select do |artist| binding.pry
+  song.all.select do |artist|
+    binding.pry
 
   end
 end
