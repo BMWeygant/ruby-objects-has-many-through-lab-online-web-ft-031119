@@ -1,4 +1,3 @@
-nes (20 sloc)  385 Bytes
 
 class Patient
   attr_accessor :name
@@ -14,8 +13,8 @@ class Patient
     @@all
   end
 
-  def new_appointment(doctor, date)
-    Appointment.new(self, doctor, date)
+  def new_appointment(date, doctor)
+    Appointment.new(date, self, doctor)
   end
 
   def appointments
