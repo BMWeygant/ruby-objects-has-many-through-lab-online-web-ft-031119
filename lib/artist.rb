@@ -21,3 +21,4 @@ def songs
 end
 songs.map(&:genre)
 end
+end
