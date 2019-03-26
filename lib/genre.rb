@@ -9,7 +9,7 @@ def initialize(name)
 end
 
 def songs
-
+songs.map(&:artist)
 end
 
 def self.all
