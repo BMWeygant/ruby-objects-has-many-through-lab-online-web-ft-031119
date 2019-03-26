@@ -12,7 +12,7 @@ def songs
 
 end
 
-def artist
+def artists
   songs.map(&:artist)
 end
 
