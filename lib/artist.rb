@@ -17,6 +17,7 @@ Song.new(name, self, genre)
 end
 
 def songs
+  song.all.select {|artist|}
 end
 
 end
