@@ -9,9 +9,11 @@ def initialize(name)
 end
 
 def songs
-  
+
 end
 
-
+def self.all
+  @@all
+end
 
 end
