@@ -11,7 +11,7 @@ def initialize(date, patient, doctor)
 end
 
 def patient
-  appointments.map(&:doctor)
+  appointments.map(&:patient)
 end
 
 def self.all
