@@ -5,7 +5,7 @@ attr_accessor :genre, :name, :songs
 
 def initialize(name)
 @name = name
-@songs = []
+@s
 @@all << self
 end
 
@@ -14,8 +14,7 @@ def self.all
 end
 
 def new_song(name, genre)
-song = Song.new(name, genre)
-@@all << song
+song = Song.new(name, self, genre)
 end
 
 end
