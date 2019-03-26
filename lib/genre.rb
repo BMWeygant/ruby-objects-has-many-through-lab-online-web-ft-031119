@@ -9,7 +9,7 @@ def initialize(name)
 end
 
 def songs
-Songs.all {|song| song.genre == self}
+Song.all {|song| song.genre == self}
 end
 
 def artists
