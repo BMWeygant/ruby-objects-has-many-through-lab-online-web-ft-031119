@@ -15,6 +15,7 @@ end
 def new_song(name, genre)
 song = Song.new(name, artist, genre)
 artist = self
+@@all << song
 end
 
 end
